@@ -1,15 +1,18 @@
 body {
-    margin: 0;
-    background-color: #86d5eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
 }
 
 .gallery {
+    max-width: 800px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding: 20px;
     list-style: none;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .gallery-item {
